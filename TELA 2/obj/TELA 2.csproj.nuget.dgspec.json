@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PROJETOS\\TELA-2-master\\TELA 2\\TELA 2.csproj": {}
+    "C:\\Users\\eduar\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj": {}
   },
   "projects": {
-    "C:\\PROJETOS\\TELA-2-master\\TELA 2\\TELA 2.csproj": {
+    "C:\\Users\\eduar\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PROJETOS\\TELA-2-master\\TELA 2\\TELA 2.csproj",
+        "projectUniqueName": "C:\\Users\\eduar\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj",
         "projectName": "TELA 2",
-        "projectPath": "C:\\PROJETOS\\TELA-2-master\\TELA 2\\TELA 2.csproj",
+        "projectPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\PROJETOS\\TELA-2-master\\TELA 2\\obj\\",
+        "outputPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
