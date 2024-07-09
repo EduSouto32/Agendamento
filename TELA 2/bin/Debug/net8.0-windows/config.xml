@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BackupConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Origem>C:\PRODAN</Origem>
+  <Destino>C:\bACK</Destino>
+  <DiasDeRetencao>30</DiasDeRetencao>
+</BackupConfig>

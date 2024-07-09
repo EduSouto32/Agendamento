@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="FAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FNuvem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FXml.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="OpenFolder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
