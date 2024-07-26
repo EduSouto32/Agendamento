@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <PackageReference Include="ReaLTaiizor" Version="3.8.0.5" />
+    <PackageReference Include="Siticone.Desktop.UI" Version="2.1.1" />
   </ItemGroup>
 
   <ItemGroup>

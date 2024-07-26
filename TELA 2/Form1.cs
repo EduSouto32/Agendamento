@@ -32,8 +32,12 @@ namespace Backup
 
             contextMenuStrip.Items.AddRange(new ToolStripItem[] { showMenuItem, exitMenuItem });
             notifyIcon.ContextMenuStrip = contextMenuStrip;
-            notifyIcon.Icon = SystemIcons.Application;
-            notifyIcon.Icon = new Icon("C:\\PROJETOS\\TELA-2-master\\TELA 2\\icone1.ico"); // Update this line with the correct path
+
+            // Caminho relativo para o ícone
+            string appDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string iconPath = Path.Combine(appDirectory, "icone1.ico");
+            notifyIcon.Icon = new Icon(iconPath);
+
             notifyIcon.Text = "Backup";
             notifyIcon.Visible = true;
 

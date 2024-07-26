@@ -22,32 +22,33 @@
 
         private void InitializeComponent()
         {
+            ReaLTaiizor.Controls.AloneComboBox CombHistorico;
+            bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
+            openFolder1 = new OpenFolder();
+            openFolder2 = new OpenFolder();
+            bigLabel2 = new ReaLTaiizor.Controls.BigLabel();
+            bigLabel3 = new ReaLTaiizor.Controls.BigLabel();
+            bigLabel4 = new ReaLTaiizor.Controls.BigLabel();
+            SalvaConfig = new ReaLTaiizor.Controls.Button();
+            executarBackup = new ReaLTaiizor.Controls.Button();
+            panel1 = new Panel();
             this.CombHistorico = new ReaLTaiizor.Controls.AloneComboBox();
-            this.bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
-            this.openFolder1 = new OpenFolder();
-            this.openFolder2 = new OpenFolder();
-            this.bigLabel2 = new ReaLTaiizor.Controls.BigLabel();
-            this.bigLabel3 = new ReaLTaiizor.Controls.BigLabel();
-            this.bigLabel4 = new ReaLTaiizor.Controls.BigLabel();
-            this.SalvaConfig = new ReaLTaiizor.Controls.Button();
-            this.executarBackup = new ReaLTaiizor.Controls.Button();
-            this.panel1 = new Panel();
-            this.SuspendLayout();
+            SuspendLayout();
             // 
             // CombHistorico
             // 
-            CombHistorico.AutoCompleteCustomSource.AddRange(new string[] { "Diário", "Semanal", "Quinzenal", "Mensal" });
-            CombHistorico.DrawMode = DrawMode.OwnerDrawFixed;
-            CombHistorico.DropDownStyle = ComboBoxStyle.DropDownList;
-            CombHistorico.EnabledCalc = true;
-            CombHistorico.FormattingEnabled = true;
-            CombHistorico.ItemHeight = 20;
-            CombHistorico.Items.AddRange(new object[] { "Diário", "Semanal", "Quinzenal", "Mensal" });
-            CombHistorico.Location = new Point(601, 46);
-            CombHistorico.Name = "CombHistorico";
-            CombHistorico.Size = new Size(133, 26);
-            CombHistorico.TabIndex = 5;
-            CombHistorico.SelectedIndexChanged += aloneComboBox1_SelectedIndexChanged;
+            this.CombHistorico.AutoCompleteCustomSource.AddRange(new string[] { "Diário", "Semanal", "Quinzenal", "Mensal" });
+            this.CombHistorico.DrawMode = DrawMode.OwnerDrawFixed;
+            this.CombHistorico.DropDownStyle = ComboBoxStyle.DropDownList;
+            this.CombHistorico.EnabledCalc = true;
+            this.CombHistorico.FormattingEnabled = true;
+            this.CombHistorico.ItemHeight = 20;
+            this.CombHistorico.Items.AddRange(new object[] { "Diário", "Semanal", "Quinzenal", "Mensal" });
+            this.CombHistorico.Location = new Point(601, 46);
+            this.CombHistorico.Name = "CombHistorico";
+            this.CombHistorico.Size = new Size(133, 26);
+            this.CombHistorico.TabIndex = 5;
+            this.CombHistorico.SelectedIndexChanged += aloneComboBox1_SelectedIndexChanged;
             // 
             // bigLabel1
             // 
@@ -169,7 +170,7 @@
             Controls.Add(executarBackup);
             Controls.Add(SalvaConfig);
             Controls.Add(bigLabel4);
-            Controls.Add(CombHistorico);
+            Controls.Add(this.CombHistorico);
             Controls.Add(bigLabel3);
             Controls.Add(bigLabel2);
             Controls.Add(openFolder2);

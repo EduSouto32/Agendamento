@@ -29,8 +29,5 @@
     <Compile Update="OpenFolder.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="teste.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>
