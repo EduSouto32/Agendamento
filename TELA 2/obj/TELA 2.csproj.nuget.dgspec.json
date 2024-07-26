@@ -45,13 +45,13 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "FluentScheduler": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
             "ReaLTaiizor": {
               "target": "Package",
-              "version": "[3.8.0.5, )"
-            },
-            "Siticone.Desktop.UI": {
-              "target": "Package",
-              "version": "[2.1.1, )"
+              "version": "[3.8.0.6, )"
             }
           },
           "imports": [

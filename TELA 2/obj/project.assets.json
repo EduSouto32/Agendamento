@@ -2,7 +2,20 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "ReaLTaiizor/3.8.0.5": {
+      "FluentScheduler/5.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FluentScheduler.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentScheduler.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ReaLTaiizor/3.8.0.6": {
         "type": "package",
         "compile": {
           "lib/net8.0-windows7.0/ReaLTaiizor.dll": {
@@ -17,23 +30,30 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
-      },
-      "Siticone.Desktop.UI/2.1.1": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Siticone.Desktop.UI.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Siticone.Desktop.UI.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "ReaLTaiizor/3.8.0.5": {
-      "sha512": "l/LKMZXpfBwIEax7ZEXpRNlLmPAENN2OPf5sAYXVecjENvmlGhrgX0YKU72kFsw/Yjuzn+F01jMAAgs2mYsJIg==",
+    "FluentScheduler/5.5.1": {
+      "sha512": "OwehD7vZ1CFAboLPrfBTibz/FeKg8DK1h242u0Y050dbfcOlb+d4S/iGBNt/yHaHIhCsmPiQqQjG13e441xWLA==",
       "type": "package",
-      "path": "realtaiizor/3.8.0.5",
+      "path": "fluentscheduler/5.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentscheduler.5.5.1.nupkg.sha512",
+        "fluentscheduler.nuspec",
+        "lib/netstandard2.0/FluentScheduler.dll",
+        "lib/netstandard2.0/FluentScheduler.xml",
+        "lib/netstandard2.1/FluentScheduler.dll",
+        "lib/netstandard2.1/FluentScheduler.xml",
+        "logo-200x200.png"
+      ]
+    },
+    "ReaLTaiizor/3.8.0.6": {
+      "sha512": "ctFZ78lKdkA3MvBn8xFadO0zF7FeSUVb5tN4SHhPJNhvyBSfwHAjt79tLQxy+MZvviaQXJO88cx58JIF0BKrbw==",
+      "type": "package",
+      "path": "realtaiizor/3.8.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -54,29 +74,15 @@
         "lib/net9.0-windows7.0/ReaLTaiizor.xml",
         "lib/netcoreapp3.1/ReaLTaiizor.dll",
         "lib/netcoreapp3.1/ReaLTaiizor.xml",
-        "realtaiizor.3.8.0.5.nupkg.sha512",
+        "realtaiizor.3.8.0.6.nupkg.sha512",
         "realtaiizor.nuspec"
-      ]
-    },
-    "Siticone.Desktop.UI/2.1.1": {
-      "sha512": "Ra7IVuwB11Q2yCo541FcPFmcxDyY7TSUmGg2ddbf+rNN18NrPXJ2CKMY0ZbuL+JRIig/jrJcU7ymJHfxKnEWvw==",
-      "type": "package",
-      "path": "siticone.desktop.ui/2.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "icon.png",
-        "lib/net40/Siticone.Desktop.UI.dll",
-        "siticone.desktop.ui.2.1.1.nupkg.sha512",
-        "siticone.desktop.ui.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "ReaLTaiizor >= 3.8.0.5",
-      "Siticone.Desktop.UI >= 2.1.1"
+      "FluentScheduler >= 5.5.1",
+      "ReaLTaiizor >= 3.8.0.6"
     ]
   },
   "packageFolders": {
@@ -123,13 +129,13 @@
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "dependencies": {
+          "FluentScheduler": {
+            "target": "Package",
+            "version": "[5.5.1, )"
+          },
           "ReaLTaiizor": {
             "target": "Package",
-            "version": "[3.8.0.5, )"
-          },
-          "Siticone.Desktop.UI": {
-            "target": "Package",
-            "version": "[2.1.1, )"
+            "version": "[3.8.0.6, )"
           }
         },
         "imports": [
@@ -154,17 +160,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Siticone.Desktop.UI 2.1.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Siticone.Desktop.UI",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }
