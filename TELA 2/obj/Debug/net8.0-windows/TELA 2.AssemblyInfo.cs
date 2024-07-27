@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TELA 2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+822dce489494a62c8fc760e0f6d00a440a850106")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+129db16974c18ed225a2df4e6805681ef08c3e76")]
 [assembly: System.Reflection.AssemblyProductAttribute("TELA 2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TELA 2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
