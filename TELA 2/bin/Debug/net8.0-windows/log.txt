@@ -92,3 +92,18 @@
 [26/07/2024 16:10:52] [SUCESSO] Pasta compactada com sucesso.
 [26/07/2024 16:10:52] [SUCESSO] Backup antigo (17-07-2024) removido.
 [26/07/2024 16:10:52] [SUCESSO] Backup concluído com sucesso!
+[27/07/2024 19:53:54] [SUCESSO] Pasta compactada com sucesso.
+[27/07/2024 19:53:54] [SUCESSO] Backup concluído com sucesso!
+[27/07/2024 19:54:08] [SUCESSO] Arquivo ZIP existente 'C:\Backup\backup 27-07-2024.zip' excluído.
+[27/07/2024 19:54:08] [SUCESSO] Pasta compactada com sucesso.
+[27/07/2024 19:54:08] [SUCESSO] Backup concluído com sucesso!
+[27/07/2024 20:08:23] [SUCESSO] Pasta compactada com sucesso.
+[27/07/2024 20:08:23] [SUCESSO] Backup concluído com sucesso!
+[27/07/2024 20:08:30] [SUCESSO] Pasta compactada com sucesso.
+[27/07/2024 20:08:30] [SUCESSO] Backup concluído com sucesso!
+[27/07/2024 20:16:12] [SUCESSO] Pasta compactada com sucesso.
+[27/07/2024 20:16:12] [SUCESSO] Backup concluído com sucesso!
+[27/07/2024 20:19:11] [SUCESSO] Pasta compactada com sucesso.
+[27/07/2024 20:19:11] [SUCESSO] Backup concluído com sucesso!
+[27/07/2024 20:22:05] [SUCESSO] Pasta compactada com sucesso.
+[27/07/2024 20:22:05] [SUCESSO] Backup concluído com sucesso!

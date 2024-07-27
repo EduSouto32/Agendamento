@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BackupConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Origem>C:\PRW</Origem>
-  <Destino>C:\bACK</Destino>
+  <Origem>C:\destino</Origem>
+  <Destino>C:\Backup</Destino>
   <DiasDeRetencao>1</DiasDeRetencao>
   <Horas>20</Horas>
-  <Minutos>00</Minutos>
+  <Minutos>22</Minutos>
 </BackupConfig>

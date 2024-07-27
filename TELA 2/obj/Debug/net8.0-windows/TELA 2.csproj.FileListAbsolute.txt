@@ -57,3 +57,33 @@ C:\Users\eduar\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-wi
 C:\Users\eduar\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.genruntimeconfig.cache
 C:\Users\eduar\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\ref\TELA 2.dll
 C:\Users\eduar\OneDrive\Documentos\GitHub\Agendamento\TELA 2\bin\Debug\net8.0-windows\FluentScheduler.dll
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\bin\Debug\net8.0-windows\TELA 2.exe
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\bin\Debug\net8.0-windows\TELA 2.deps.json
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\bin\Debug\net8.0-windows\TELA 2.runtimeconfig.json
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\bin\Debug\net8.0-windows\TELA 2.dll
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\bin\Debug\net8.0-windows\TELA 2.pdb
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\bin\Debug\net8.0-windows\FluentScheduler.dll
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\bin\Debug\net8.0-windows\ReaLTaiizor.dll
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.csproj.AssemblyReference.cache
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA_2.FAgenda.resources
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\Backup.FBanco.resources
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\Backup.FConfig.resources
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\Backup.FHome.resources
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA_2.FLoading.resources
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\Backup.FNuvem.resources
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\Backup.Form1.resources
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA_2.FXml.resources
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\Backup.OpenFolder.resources
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA_2.Properties.Resources.resources
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.csproj.GenerateResource.cache
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.AssemblyInfoInputs.cache
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.AssemblyInfo.cs
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.csproj.CoreCompileInputs.cache
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.sourcelink.json
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.csproj.Up2Date
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.dll
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\refint\TELA 2.dll
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.pdb
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\TELA 2.genruntimeconfig.cache
+C:\Users\EduSo\OneDrive\Documentos\GitHub\Agendamento\TELA 2\obj\Debug\net8.0-windows\ref\TELA 2.dll
