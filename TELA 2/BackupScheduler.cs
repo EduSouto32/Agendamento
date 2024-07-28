@@ -1,7 +1,6 @@
 ﻿using FluentScheduler;
 using System;
 using System.IO;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TELA_2
@@ -12,13 +11,21 @@ namespace TELA_2
         {
             // Carrega as configurações do arquivo config.xml
             string caminhoConfig = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.xml");
-            BackupConfig config = BackupConfig.Load(caminhoConfig);
 
-            int horas = config.Horas;
-            int minutos = config.Minutos;
+            if (File.Exists(caminhoConfig))
+            {
+                ConfigWrapper configWrapper = ConfigWrapper.Load(caminhoConfig);
 
-            // Define o horário de execução do job baseado nas configurações do arquivo XML
-            Schedule<BackupJob>().ToRunEvery(1).Days().At(horas, minutos);
+                int horas = configWrapper.Agenda.Horas;
+                int minutos = configWrapper.Agenda.Minutos;
+
+                // Define o horário de execução do job baseado nas configurações do arquivo XML
+                Schedule<BackupJob>().ToRunEvery(1).Days().At(horas, minutos);
+            }
+            else
+            {
+                MessageBox.Show("Arquivo de configuração da agenda não encontrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private class BackupJob : IJob

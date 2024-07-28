@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\xml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\execbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\execbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\backup2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\backup2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\backupscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\backupscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\fagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\fagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|c:\\users\\eduso\\onedrive\\documentos\\github\\agendamento\\tela 2\\xml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\xml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\fagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\fagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,30 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\execbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\execbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\backup2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\backup2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|c:\\users\\eduso\\onedrive\\documentos\\github\\agendamento\\tela 2\\backupscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\backupscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\fagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\fagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\fagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\fagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|solutionrelative:tela 2\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89D7DCAC-F1D1-4B72-972D-645FE89A3652}|TELA 2\\TELA 2.csproj|C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\tela 2\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "FAgenda.cs",
               "DocumentMoniker": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\FAgenda.cs",
               "RelativeDocumentMoniker": "TELA 2\\FAgenda.cs",
               "ToolTip": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\FAgenda.cs",
               "RelativeToolTip": "TELA 2\\FAgenda.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAcwFQAAACuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T23:51:22.058Z",
               "EditorCaption": ""
@@ -95,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\Program.cs",
               "RelativeDocumentMoniker": "TELA 2\\Program.cs",
@@ -103,46 +103,46 @@
               "RelativeToolTip": "TELA 2\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T22:30:05.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T22:30:05.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "BackupScheduler.cs",
               "DocumentMoniker": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\BackupScheduler.cs",
               "RelativeDocumentMoniker": "TELA 2\\BackupScheduler.cs",
               "ToolTip": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\BackupScheduler.cs",
               "RelativeToolTip": "TELA 2\\BackupScheduler.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwvxkAAAAnAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T19:50:18.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ExecBackup.cs",
               "DocumentMoniker": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\ExecBackup.cs",
               "RelativeDocumentMoniker": "TELA 2\\ExecBackup.cs",
               "ToolTip": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\ExecBackup.cs",
               "RelativeToolTip": "TELA 2\\ExecBackup.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAIwCkAAAABAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAzwBUAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T19:03:21.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "FHome.cs",
               "DocumentMoniker": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\FHome.cs",
               "RelativeDocumentMoniker": "TELA 2\\FHome.cs",
               "ToolTip": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\FHome.cs",
               "RelativeToolTip": "TELA 2\\FHome.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHkAAAAkAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAwwJ0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T17:04:50.063Z"
+              "WhenOpened": "2024-07-26T17:04:50.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -153,24 +153,25 @@
               "ToolTip": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\FHome.cs [Projeto]",
               "RelativeToolTip": "TELA 2\\FHome.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T12:21:29.791Z"
+              "WhenOpened": "2024-07-26T12:21:29.791Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Xml.cs",
               "DocumentMoniker": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\Xml.cs",
               "RelativeDocumentMoniker": "TELA 2\\Xml.cs",
               "ToolTip": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\Xml.cs",
               "RelativeToolTip": "TELA 2\\Xml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA3AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T13:13:03.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Logger.cs",
               "DocumentMoniker": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\Logger.cs",
               "RelativeDocumentMoniker": "TELA 2\\Logger.cs",
@@ -178,18 +179,17 @@
               "RelativeToolTip": "TELA 2\\Logger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T13:12:49.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T13:12:49.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Backup2.cs",
               "DocumentMoniker": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\Backup2.cs",
               "RelativeDocumentMoniker": "TELA 2\\Backup2.cs",
               "ToolTip": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\Backup2.cs",
               "RelativeToolTip": "TELA 2\\Backup2.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowB8AAAANAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAwwGEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T13:12:24.399Z",
               "EditorCaption": ""

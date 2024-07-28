@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BackupConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Origem>C:\destino</Origem>
-  <Destino>C:\Backup</Destino>
-  <DiasDeRetencao>1</DiasDeRetencao>
-  <Horas>12</Horas>
-  <Minutos>50</Minutos>
-</BackupConfig>
+<ConfigWrapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BackupConfig>
+    <Origem>C:\Projetos</Origem>
+    <Destino>C:\Backup</Destino>
+    <DiasDeRetencao>1</DiasDeRetencao>
+  </BackupConfig>
+  <Agenda>
+    <Horas>14</Horas>
+    <Minutos>57</Minutos>
+  </Agenda>
+</ConfigWrapper>

@@ -34,7 +34,7 @@ public class Backup2
                 return;
             }
 
-            string nomeArquivoBackup = $"backup {DateTime.Now:dd-MM-yyyy}.zip";
+            string nomeArquivoBackup = $"backup_{DateTime.Now:dd-MM-yyyy}.zip";
             string arquivoZip = Path.Combine(_destino, nomeArquivoBackup);
             await CompactarPastaAsync(_origem, arquivoZip);
 
@@ -78,10 +78,9 @@ public class Backup2
             DateTime dataAtual = DateTime.Now;
             foreach (var arquivo in arquivosBackup)
             {
-                DateTime dataModificacao = arquivo.LastWriteTime; // Obter a data de modificação antes de excluir
-
                 if ((dataAtual - arquivo.CreationTime).TotalDays > dias) // dias de retenção
                 {
+                    DateTime dataModificacao = arquivo.LastWriteTime; // Obter a data de modificação antes de excluir
                     arquivo.Delete();
 
                     // Use a data de modificação armazenada para formatação
@@ -89,7 +88,6 @@ public class Backup2
                     _logger.AdicionarLog($"Backup antigo ({dataFormatada}) removido.");
                 }
             }
-
         }
         catch (Exception ex)
         {

@@ -37,10 +37,10 @@ namespace TELA_2
 
             if (File.Exists(configFilePath))
             {
-                BackupConfig config = BackupConfig.Load(configFilePath);
+                ConfigWrapper configWrapper = ConfigWrapper.Load(configFilePath);
 
-                Horas = config.Horas;
-                Minutos = config.Minutos;
+                Horas = configWrapper.Agenda.Horas;
+                Minutos = configWrapper.Agenda.Minutos;
 
                 // Atualiza o valor dos controles hopeNumeric
                 hopeNumericHoras.ValueNumber = Horas;
@@ -58,33 +58,35 @@ namespace TELA_2
             Minutos = (int)hopeNumericMinutos.ValueNumber;
 
             string configFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.xml");
-            BackupConfig config;
+            ConfigWrapper configWrapper;
 
             if (File.Exists(configFilePath))
             {
-                config = BackupConfig.Load(configFilePath);
+                configWrapper = ConfigWrapper.Load(configFilePath);
             }
             else
             {
-                config = new BackupConfig();
+                configWrapper = new ConfigWrapper
+                {
+                    BackupConfig = new BackupConfig(),
+                    Agenda = new Agenda()
+                };
             }
 
-            config.Horas = Horas;
-            config.Minutos = Minutos;
+            configWrapper.Agenda.Horas = Horas;
+            configWrapper.Agenda.Minutos = Minutos;
 
-            config.Save(configFilePath);
+            configWrapper.Save(configFilePath);
 
             // Atualiza as labels com os novos valores
             bigLabel2.Text = $"{Horas:D2}";
             bigLabel3.Text = $"{Minutos:D2}";
-            
+
             // Reinicializa o JobManager com a nova configuração
             JobManager.Stop();
             JobManager.Initialize(new BackupScheduler());
 
             MessageBox.Show($"Horas: {Horas:D2}, Minutos: {Minutos:D2}\nConfiguração salva com sucesso!", "Valores Salvos", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
         }
-
     }
 }

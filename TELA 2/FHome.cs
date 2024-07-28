@@ -24,11 +24,11 @@ namespace Backup
 
             if (File.Exists(configFilePath))
             {
-                BackupConfig config = BackupConfig.Load(configFilePath);
+                ConfigWrapper configWrapper = ConfigWrapper.Load(configFilePath);
 
-                caminhoOrigem = config.Origem;
-                caminhoDestino = config.Destino;
-                diasDeRetencao = config.DiasDeRetencao;
+                caminhoOrigem = configWrapper.BackupConfig.Origem;
+                caminhoDestino = configWrapper.BackupConfig.Destino;
+                diasDeRetencao = configWrapper.BackupConfig.DiasDeRetencao;
 
                 openFolder1.SelectedPath = caminhoOrigem;
                 openFolder2.SelectedPath = caminhoDestino;
@@ -92,15 +92,27 @@ namespace Backup
                 return;
             }
 
-            BackupConfig config = new BackupConfig
-            {
-                Origem = caminhoOrigem,
-                Destino = caminhoDestino,
-                DiasDeRetencao = diasDeRetencao
-            };
-
             string configFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.xml");
-            config.Save(configFilePath);
+            ConfigWrapper configWrapper;
+
+            if (File.Exists(configFilePath))
+            {
+                configWrapper = ConfigWrapper.Load(configFilePath);
+            }
+            else
+            {
+                configWrapper = new ConfigWrapper
+                {
+                    BackupConfig = new BackupConfig(),
+                    Agenda = new Agenda()
+                };
+            }
+
+            configWrapper.BackupConfig.Origem = caminhoOrigem;
+            configWrapper.BackupConfig.Destino = caminhoDestino;
+            configWrapper.BackupConfig.DiasDeRetencao = diasDeRetencao;
+
+            configWrapper.Save(configFilePath);
 
             MessageBox.Show("Configuração salva com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
@@ -122,6 +134,7 @@ namespace Backup
                 catch (Exception ex)
                 {
                     loadingForm.Close(); // Fechar o formulário de carregamento em caso de erro
+                    MessageBox.Show($"Erro ao executar o backup: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else

@@ -11,31 +11,46 @@ namespace TELA_2
 
         public static async Task Execute()
         {
-            // Carrega as configurações do arquivo config.xml
             string caminhoConfig = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.xml");
-            BackupConfig config = BackupConfig.Load(caminhoConfig);
 
-            // Substitui as variáveis origem, destino e historico pelos valores do arquivo XML
-            string origem = config.Origem;
-            string destino = config.Destino;
-            int historico = config.DiasDeRetencao;
-
-            string logPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "log.txt");
-
-            try
+            if (File.Exists(caminhoConfig))
             {
-                _logger = new Logger(logPath); // Supondo que a classe Logger exista e tenha um construtor que receba o caminho do arquivo de log
-                Compact compactador = new Compact(_logger); // Supondo que a classe Compact exista e tenha um construtor que receba um Logger
-                Backup2 backupOperacao = new Backup2(origem, destino, _logger, compactador);
-                await backupOperacao.ExecutarBackupAsync(historico);
-                _logger.AdicionarLog("Backup concluído com sucesso!", sucesso: true); // Log de sucesso
-                MessageBox.Show("Backup concluído com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                try
+                {
+                    // Carrega as configurações do arquivo config.xml
+                    ConfigWrapper configWrapper = ConfigWrapper.Load(caminhoConfig);
+                    BackupConfig config = configWrapper.BackupConfig;
+
+                    string origem = config.Origem;
+                    string destino = config.Destino;
+                    int historico = config.DiasDeRetencao;
+
+                    if (string.IsNullOrEmpty(origem) || string.IsNullOrEmpty(destino))
+                    {
+                        MessageBox.Show("Origem ou destino não especificado no arquivo config.xml.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    // Inicializa o logger e as classes de backup
+                    string logPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "log.txt");
+                    _logger = new Logger(logPath);
+                    Compact compactador = new Compact(_logger);
+                    Backup2 backupOperacao = new Backup2(origem, destino, _logger, compactador);
+
+                    // Executa o backup
+                    await backupOperacao.ExecutarBackupAsync(historico);
+                    _logger.AdicionarLog("Backup concluído com sucesso!", sucesso: true);
+                    MessageBox.Show("Backup concluído com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    _logger?.AdicionarLog($"Erro ao executar o backup: {ex.Message}", sucesso: false);
+                    MessageBox.Show($"Erro ao executar o backup: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger?.AdicionarLog($"Erro no programa: {ex.Message}", sucesso: false); // Log de erro
-                MessageBox.Show($"Erro no programa: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                throw; // Relança a exceção para ser tratada no nível superior
+                MessageBox.Show("Arquivo config.xml não encontrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
