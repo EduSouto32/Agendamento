@@ -121,7 +121,7 @@
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.BackColor = Color.FromArgb(50, 50, 50);
+            flowLayoutPanel1.BackColor = Color.FromArgb(80, 80, 80);
             flowLayoutPanel1.Controls.Add(panel1);
             flowLayoutPanel1.Controls.Add(panel2);
             flowLayoutPanel1.Controls.Add(panel3);
@@ -150,7 +150,7 @@
             button1.ForeColor = Color.Black;
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(-5, -5);
+            button1.Location = new Point(-1, -5);
             button1.Name = "button1";
             button1.Size = new Size(211, 73);
             button1.TabIndex = 3;
@@ -175,7 +175,7 @@
             button4.ForeColor = Color.Black;
             button4.Image = (Image)resources.GetObject("button4.Image");
             button4.ImageAlign = ContentAlignment.MiddleLeft;
-            button4.Location = new Point(-5, -5);
+            button4.Location = new Point(-1, -5);
             button4.Name = "button4";
             button4.Size = new Size(211, 73);
             button4.TabIndex = 3;
@@ -200,7 +200,7 @@
             button2.ForeColor = Color.Black;
             button2.Image = (Image)resources.GetObject("button2.Image");
             button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(-5, -5);
+            button2.Location = new Point(-1, -5);
             button2.Name = "button2";
             button2.Size = new Size(211, 73);
             button2.TabIndex = 3;
@@ -225,7 +225,7 @@
             button7.ForeColor = Color.Black;
             button7.Image = (Image)resources.GetObject("button7.Image");
             button7.ImageAlign = ContentAlignment.MiddleLeft;
-            button7.Location = new Point(-5, -5);
+            button7.Location = new Point(-1, -5);
             button7.Name = "button7";
             button7.Size = new Size(211, 73);
             button7.TabIndex = 4;
@@ -250,7 +250,7 @@
             button8.ForeColor = Color.Black;
             button8.Image = (Image)resources.GetObject("button8.Image");
             button8.ImageAlign = ContentAlignment.MiddleLeft;
-            button8.Location = new Point(-4, -8);
+            button8.Location = new Point(-1, -8);
             button8.Name = "button8";
             button8.Size = new Size(222, 73);
             button8.TabIndex = 5;
@@ -275,7 +275,7 @@
             button3.ForeColor = Color.Black;
             button3.Image = (Image)resources.GetObject("button3.Image");
             button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(-5, -14);
+            button3.Location = new Point(-1, -14);
             button3.Name = "button3";
             button3.Size = new Size(220, 74);
             button3.TabIndex = 3;

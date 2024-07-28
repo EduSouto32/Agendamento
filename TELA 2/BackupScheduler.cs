@@ -19,9 +19,6 @@ namespace TELA_2
 
             // Define o horário de execução do job baseado nas configurações do arquivo XML
             Schedule<BackupJob>().ToRunEvery(1).Days().At(horas, minutos);
-
-            // Log para verificar a configuração do job
-            MessageBox.Show($"Job agendado para rodar todos os dias às {horas:D2}:{minutos:D2}");
         }
 
         private class BackupJob : IJob

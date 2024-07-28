@@ -118,12 +118,10 @@ namespace Backup
                 {
                     await ExecBackup.Execute();
                     loadingForm.Close(); // Fechar o formulário de carregamento após a conclusão do backup
-                    MessageBox.Show("Backup concluído com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception ex)
                 {
                     loadingForm.Close(); // Fechar o formulário de carregamento em caso de erro
-                    MessageBox.Show($"Erro no programa: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
