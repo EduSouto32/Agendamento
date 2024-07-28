@@ -3,6 +3,6 @@
   <Origem>C:\destino</Origem>
   <Destino>C:\Backup</Destino>
   <DiasDeRetencao>1</DiasDeRetencao>
-  <Horas>10</Horas>
-  <Minutos>48</Minutos>
+  <Horas>12</Horas>
+  <Minutos>50</Minutos>
 </BackupConfig>

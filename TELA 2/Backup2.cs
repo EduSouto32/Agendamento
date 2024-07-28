@@ -30,7 +30,6 @@ public class Backup2
         {
             if (!Directory.Exists(_origem))
             {
-                Console.WriteLine("A pasta de origem está inacessível.");
                 _logger.AdicionarLog("Erro ao encontrar a pasta de origem", sucesso: false);
                 return;
             }
@@ -43,7 +42,6 @@ public class Backup2
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Erro ao executar backup: {ex.Message}");
             _logger.AdicionarLog($"Erro ao executar backup: {ex.Message}", sucesso: false);
         }
     }
@@ -56,17 +54,14 @@ public class Backup2
             if (File.Exists(arquivoZip))
             {
                 File.Delete(arquivoZip);
-                Console.WriteLine($"Arquivo ZIP existente '{arquivoZip}' excluído.");
                 _logger.AdicionarLog($"Arquivo ZIP existente '{arquivoZip}' excluído.");
             }
 
             await Task.Run(() => ZipFile.CreateFromDirectory(pasta, arquivoZip, CompressionLevel.Optimal, false));
-            Console.WriteLine("Pasta compactada com sucesso.");
             _logger.AdicionarLog("Pasta compactada com sucesso.");
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Erro ao compactar a pasta: {ex.Message}");
             _logger.AdicionarLog($"Erro ao compactar a pasta: {ex.Message}", sucesso: false);
         }
     }
@@ -91,7 +86,6 @@ public class Backup2
 
                     // Use a data de modificação armazenada para formatação
                     string dataFormatada = dataModificacao.ToString("dd-MM-yyyy");
-                    Console.WriteLine($"Backup antigo ({dataFormatada}) removido.");
                     _logger.AdicionarLog($"Backup antigo ({dataFormatada}) removido.");
                 }
             }
@@ -99,7 +93,6 @@ public class Backup2
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Erro ao gerenciar histórico de backups: {ex.Message}");
             _logger.AdicionarLog($"Erro ao gerenciar histórico de backups: {ex.Message}", sucesso: false);
         }
     }

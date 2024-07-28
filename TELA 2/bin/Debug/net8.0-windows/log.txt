@@ -152,3 +152,9 @@
 [28/07/2024 10:48:00] [SUCESSO] Arquivo ZIP existente 'C:\Backup\backup 28-07-2024.zip' excluído.
 [28/07/2024 10:48:00] [SUCESSO] Pasta compactada com sucesso.
 [28/07/2024 10:48:00] [SUCESSO] Backup concluído com sucesso!
+[28/07/2024 12:48:54] [SUCESSO] Arquivo ZIP existente 'C:\Backup\backup 28-07-2024.zip' excluído.
+[28/07/2024 12:48:55] [SUCESSO] Pasta compactada com sucesso.
+[28/07/2024 12:48:55] [SUCESSO] Backup concluído com sucesso!
+[28/07/2024 12:50:00] [SUCESSO] Arquivo ZIP existente 'C:\Backup\backup 28-07-2024.zip' excluído.
+[28/07/2024 12:50:00] [SUCESSO] Pasta compactada com sucesso.
+[28/07/2024 12:50:00] [SUCESSO] Backup concluído com sucesso!
