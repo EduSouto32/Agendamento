@@ -1,6 +1,6 @@
 using FluentScheduler;
-using System;
 using System.Windows.Forms;
+using TELA_2;
 
 namespace Backup
 {
@@ -10,7 +10,7 @@ namespace Backup
         static void Main()
         {
             // Initialize JobManager with BackupScheduler
-            JobManager.Initialize(new TELA_2.BackupScheduler());
+            JobManager.Initialize(new BackupScheduler());
 
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.

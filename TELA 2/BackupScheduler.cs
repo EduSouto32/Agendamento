@@ -14,10 +14,10 @@ namespace TELA_2
             string caminhoConfig = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.xml");
             BackupConfig config = BackupConfig.Load(caminhoConfig);
 
-            int horas = config.Horas; // Hora no formato 0-23
-            int minutos = config.Minutos; // Minutos no formato 0-59
+            int horas = config.Horas;
+            int minutos = config.Minutos;
 
-            // Define o horário de execução do job
+            // Define o horário de execução do job baseado nas configurações do arquivo XML
             Schedule<BackupJob>().ToRunEvery(1).Days().At(horas, minutos);
 
             // Log para verificar a configuração do job

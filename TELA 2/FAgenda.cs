@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FluentScheduler;
+using System;
 using System.IO;
 using System.Windows.Forms;
 using System.Xml.Serialization;
@@ -76,6 +77,10 @@ namespace TELA_2
             // Atualiza as labels com os novos valores
             bigLabel2.Text = $"{Horas:D2}";
             bigLabel3.Text = $"{Minutos:D2}";
+            
+            // Reinicializa o JobManager com a nova configuração
+            JobManager.Stop();
+            JobManager.Initialize(new BackupScheduler());
 
             MessageBox.Show($"Horas: {Horas:D2}, Minutos: {Minutos:D2}\nConfiguração salva com sucesso!", "Valores Salvos", MessageBoxButtons.OK, MessageBoxIcon.Information);
 

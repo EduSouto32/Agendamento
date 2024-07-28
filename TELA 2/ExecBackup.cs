@@ -33,7 +33,6 @@ namespace TELA_2
                 await backupOperacao.ExecutarBackupAsync(historico);
 
                 _logger.AdicionarLog("Backup concluído com sucesso!", sucesso: true); // Log de sucesso
-                MessageBox.Show("Backup concluído com sucesso!");
             }
             catch (Exception ex)
             {
