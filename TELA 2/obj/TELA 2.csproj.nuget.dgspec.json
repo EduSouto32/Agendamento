@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj": {}
+    "C:\\Users\\eduar\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj": {
+    "C:\\Users\\eduar\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj",
+        "projectUniqueName": "C:\\Users\\eduar\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj",
         "projectName": "TELA 2",
-        "projectPath": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj",
-        "packagesPath": "C:\\Users\\EduSo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EduSo\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\obj\\",
+        "projectPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\TELA 2.csproj",
+        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\GitHub\\Agendamento\\TELA 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EduSo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
