@@ -6,7 +6,7 @@
     <DiasDeRetencao>1</DiasDeRetencao>
   </BackupConfig>
   <Agenda>
-    <Horas>13</Horas>
-    <Minutos>25</Minutos>
+    <Horas>8</Horas>
+    <Minutos>53</Minutos>
   </Agenda>
 </ConfigWrapper>

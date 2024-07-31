@@ -157,23 +157,6 @@ namespace Backup
         {
 
         }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click_1(object sender, EventArgs e)
-        {
-            button6.BackColor = Color.FromArgb(28, 28, 28);
-            this.WindowState = FormWindowState.Minimized;
-        }
-
-        private void button6_MouseHover(object sender, EventArgs e)
-        {
-            button6.BackColor = Color.FromArgb(28, 28, 28);
-        }
-
         private void Form1_Load_1(object sender, EventArgs e)
         {
 
@@ -187,6 +170,11 @@ namespace Backup
         private void button8_Click(object sender, EventArgs e)
         {
             AbrirForm(new FXml());
+        }
+
+        private void EndButton_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

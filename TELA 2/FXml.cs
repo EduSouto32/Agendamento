@@ -16,5 +16,15 @@ namespace TELA_2
         {
             InitializeComponent();
         }
+
+        private void hopeSwitch4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hopeSwitch2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -30,8 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panelControl = new Panel();
-            panel7 = new Panel();
-            button6 = new Button();
+            EndButton = new PictureBox();
             panel5 = new Panel();
             controlBoxEdit1 = new ReaLTaiizor.Controls.ControlBoxEdit();
             flowLayoutPanel1 = new FlowLayoutPanel();
@@ -48,7 +47,7 @@
             panel8 = new Panel();
             button3 = new Button();
             panelControl.SuspendLayout();
-            panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)EndButton).BeginInit();
             panel5.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             panel1.SuspendLayout();
@@ -61,8 +60,8 @@
             // 
             // panelControl
             // 
-            panelControl.BackColor = Color.FromArgb(28, 28, 28);
-            panelControl.Controls.Add(panel7);
+            panelControl.BackColor = Color.FromArgb(30, 30, 30);
+            panelControl.Controls.Add(EndButton);
             panelControl.Dock = DockStyle.Top;
             panelControl.Location = new Point(0, 0);
             panelControl.MaximumSize = new Size(978, 39);
@@ -73,28 +72,17 @@
             panelControl.Paint += panelControl_Paint;
             panelControl.MouseDown += panelControl_MouseDown;
             // 
-            // panel7
+            // EndButton
             // 
-            panel7.Controls.Add(button6);
-            panel7.Location = new Point(946, 0);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(44, 43);
-            panel7.TabIndex = 2;
-            // 
-            // button6
-            // 
-            button6.BackColor = Color.Transparent;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.ForeColor = Color.Transparent;
-            button6.Image = (Image)resources.GetObject("button6.Image");
-            button6.Location = new Point(-27, -13);
-            button6.Margin = new Padding(0);
-            button6.Name = "button6";
-            button6.Size = new Size(86, 66);
-            button6.TabIndex = 0;
-            button6.UseVisualStyleBackColor = false;
-            button6.Click += button6_Click_1;
-            button6.MouseHover += button6_MouseHover;
+            EndButton.BackColor = Color.Transparent;
+            EndButton.Image = (Image)resources.GetObject("EndButton.Image");
+            EndButton.InitialImage = (Image)resources.GetObject("EndButton.InitialImage");
+            EndButton.Location = new Point(941, 3);
+            EndButton.Name = "EndButton";
+            EndButton.Size = new Size(33, 34);
+            EndButton.TabIndex = 2;
+            EndButton.TabStop = false;
+            EndButton.Click += EndButton_Click;
             // 
             // panel5
             // 
@@ -121,7 +109,7 @@
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.BackColor = Color.FromArgb(80, 80, 80);
+            flowLayoutPanel1.BackColor = Color.FromArgb(60, 60, 60);
             flowLayoutPanel1.Controls.Add(panel1);
             flowLayoutPanel1.Controls.Add(panel2);
             flowLayoutPanel1.Controls.Add(panel3);
@@ -299,7 +287,7 @@
             Name = "Form1";
             Text = "Form1";
             panelControl.ResumeLayout(false);
-            panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)EndButton).EndInit();
             panel5.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
             panel1.ResumeLayout(false);
@@ -326,11 +314,10 @@
         private Button button5;
         private ReaLTaiizor.Controls.ControlBoxEdit controlBoxEdit1;
         private Panel panel5;
-        private Panel panel7;
-        private Button button6;
         private Button button7;
         private Panel panel6;
         private Button button8;
         private Panel panel8;
+        private PictureBox EndButton;
     }
 }
