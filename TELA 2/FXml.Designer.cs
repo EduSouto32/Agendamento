@@ -135,7 +135,7 @@
             hopeSwitch1.AutoSize = true;
             hopeSwitch1.BaseColor = Color.White;
             hopeSwitch1.BaseOffColor = Color.FromArgb(220, 223, 230);
-            hopeSwitch1.BaseOnColor = Color.FromArgb(64, 158, 255);
+            hopeSwitch1.BaseOnColor = Color.FromArgb(32, 32, 32);
             hopeSwitch1.Location = new Point(285, 186);
             hopeSwitch1.Name = "hopeSwitch1";
             hopeSwitch1.Size = new Size(40, 20);
@@ -146,9 +146,11 @@
             // 
             // aloneComboBox1
             // 
+            aloneComboBox1.BackColor = SystemColors.Window;
             aloneComboBox1.DrawMode = DrawMode.OwnerDrawFixed;
             aloneComboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             aloneComboBox1.EnabledCalc = true;
+            aloneComboBox1.ForeColor = SystemColors.WindowText;
             aloneComboBox1.FormattingEnabled = true;
             aloneComboBox1.ItemHeight = 20;
             aloneComboBox1.Items.AddRange(new object[] { "Banco", "Prw" });
@@ -162,7 +164,7 @@
             hopeSwitch2.AutoSize = true;
             hopeSwitch2.BaseColor = Color.White;
             hopeSwitch2.BaseOffColor = Color.FromArgb(220, 223, 230);
-            hopeSwitch2.BaseOnColor = Color.FromArgb(64, 158, 255);
+            hopeSwitch2.BaseOnColor = Color.FromArgb(32, 32, 32);
             hopeSwitch2.Location = new Point(415, 186);
             hopeSwitch2.Name = "hopeSwitch2";
             hopeSwitch2.Size = new Size(40, 20);
@@ -177,7 +179,7 @@
             hopeSwitch3.AutoSize = true;
             hopeSwitch3.BaseColor = Color.White;
             hopeSwitch3.BaseOffColor = Color.FromArgb(220, 223, 230);
-            hopeSwitch3.BaseOnColor = Color.FromArgb(64, 158, 255);
+            hopeSwitch3.BaseOnColor = Color.FromArgb(32, 32, 32);
             hopeSwitch3.Location = new Point(545, 186);
             hopeSwitch3.Name = "hopeSwitch3";
             hopeSwitch3.Size = new Size(40, 20);
@@ -191,7 +193,7 @@
             hopeSwitch4.AutoSize = true;
             hopeSwitch4.BaseColor = Color.White;
             hopeSwitch4.BaseOffColor = Color.FromArgb(220, 223, 230);
-            hopeSwitch4.BaseOnColor = Color.FromArgb(64, 158, 255);
+            hopeSwitch4.BaseOnColor = Color.FromArgb(32, 32, 32);
             hopeSwitch4.Location = new Point(155, 186);
             hopeSwitch4.Name = "hopeSwitch4";
             hopeSwitch4.Size = new Size(40, 20);

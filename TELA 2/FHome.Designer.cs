@@ -38,6 +38,7 @@
             // CombHistorico
             // 
             this.CombHistorico.AutoCompleteCustomSource.AddRange(new string[] { "Diário", "Semanal", "Quinzenal", "Mensal" });
+            this.CombHistorico.BackColor = SystemColors.Window;
             this.CombHistorico.DrawMode = DrawMode.OwnerDrawFixed;
             this.CombHistorico.DropDownStyle = ComboBoxStyle.DropDownList;
             this.CombHistorico.EnabledCalc = true;

@@ -214,3 +214,7 @@
 [29/07/2024 13:25:20] [SUCESSO] Backup concluído com sucesso!
 [30/07/2024 08:53:29] [SUCESSO] Pasta compactada com sucesso.
 [30/07/2024 08:53:29] [SUCESSO] Backup concluído com sucesso!
+[31/07/2024 14:34:29] [SUCESSO] Pasta compactada com sucesso.
+[31/07/2024 14:34:29] [SUCESSO] Backup antigo (30-07-2024) removido.
+[31/07/2024 14:34:29] [SUCESSO] Backup antigo (29-07-2024) removido.
+[31/07/2024 14:34:29] [SUCESSO] Backup concluído com sucesso!
